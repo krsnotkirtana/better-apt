@@ -538,9 +538,64 @@ then
         sudo apt install evince
         echo "Installed evince."
     fi
-    if [ $2 = "csh" ]
+    if [ $2 = "steam" ]
     then
-        sudo apt install csh
-        echo "Installed csh."
+        sudo apt install steam
+        echo "Installed steam."
+    fi
+    if [ $2 = "simplescreenrecorder" ]
+    then
+        sudo apt install simplescreenrecorder
+        echo "Installed simplescreenrecorder."
+    fi
+    if [ $2 = "recordmydesktop" ]
+    then
+        sudo apt install recordmydesktop
+        echo "Installed recordmydesktop."
+    fi
+    if [ $2 = "vokoscreen" ]
+    then
+        sudo apt install vokoscreen
+        echo "Installed vokoscreen."
+    fi
+    if [ $2 = "kazam" ]
+    then
+        sudo apt install kazam
+        echo "Installed kazam."
+    fi
+    if [ $2 = "mupdf" ]
+    then
+        sudo apt install mupdf
+        echo "Installed mupdf."
+    fi
+    if [ $2 = "cecilia" ]
+    then
+        sudo apt install cecilia
+        echo "Installed cecilia."
+    fi
+    if [ $2 = "mixxx" ]
+    then
+        sudo apt install mixxx
+        echo "Installed mixxx."
+    fi
+    if [ $2 = "qtractor" ]
+    then
+        sudo apt install qtractor
+        echo "Installed qtractor."
+    fi
+    if [ $2 = "rosegarden" ]
+    then
+        sudo apt install rosegarden
+        echo "Installed rosegarden."
+    fi
+    if [ $2 = "nasm" ]
+    then
+        sudo apt install nasm
+        echo "Installed nasm."
+    fi
+    if [ $2 = "gnome-screenshot" ]
+    then
+        sudo apt install gnome-screenshot
+        echo "Installed gnome-screenshot."
     fi
 fi
