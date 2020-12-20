@@ -263,4 +263,74 @@ then
         sudo apt install shotcut
         echo "Installed shotcut."
     fi
+    if [ $2 = "nmap" ]
+    then
+        sudo apt install nmap
+        echo "Installed nmap."
+    fi
+    if [ $2 = "gtkhash" ]
+    then
+        sudo apt install gtkhash
+        echo "Installed gtkhash."
+    fi
+    if [ $2 = "transmission" ]
+    then
+        sudo apt install transmission
+        echo "Installed transmission."
+    fi
+    if [ $2 = "kcalc" ]
+    then
+        sudo apt install kcalc
+        echo "Installed kcalc."
+    fi
+    if [ $2 = "stellarium" ]
+    then
+        sudo apt install stellarium
+        echo "Installed stellarium."
+    fi
+    if [ $2 = "kstars" ]
+    then
+        sudo apt install kstars
+        echo "Installed kstars."
+    fi
+    if [ $2 = "youtube-dl" ]
+    then
+        sudo apt install youtube-dl
+        echo "Installed youtube-dl."
+    fi
+    if [ $2 = "neovim" ]
+    then
+        sudo apt install neovim
+        echo "Installed neovim."
+    fi
+    if [ $2 = "net-tools" ]
+    then
+        sudo apt install net-tools
+        echo "Installed net-tools."
+    fi
+    if [ $2 = "curl" ]
+    then
+        sudo apt install curl
+        echo "Installed curl."
+    fi
+    if [ $2 = "wget" ]
+    then
+        sudo apt install wget
+        echo "Installed wget."
+    fi
+    if [ $2 = "mousepad" ]
+    then
+        sudo apt install mousepad
+        echo "Installed mousepad."
+    fi
+    if [ $2 = "fish" ]
+    then
+        sudo apt install fish
+        echo "Installed fish."
+    fi
+    if [ $2 = "zsh" ]
+    then
+        sudo apt install zsh
+        echo "Installed zsh."
+    fi
 fi
