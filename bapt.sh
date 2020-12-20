@@ -238,4 +238,29 @@ then
         sudo apt install make
         echo "Installed make."
     fi
+    if [ $2 = "evolution" ]
+    then
+        sudo apt install evolution
+        echo "Installed evolution."
+    fi
+    if [ $2 = "geary" ]
+    then
+        sudo apt install geary
+        echo "Installed geary."
+    fi
+    if [ $2 = "slack" ]
+    then
+        sudo apt install slack
+        echo "Installed slack."
+    fi
+    if [ $2 = "tilix" ]
+    then
+        sudo apt install tilix
+        echo "Installed tilix."
+    fi
+    if [ $2 = "shotcut" ]
+    then
+        sudo apt install shotcut
+        echo "Installed shotcut."
+    fi
 fi
