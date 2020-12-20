@@ -63,4 +63,59 @@ then
         sudo apt install krita
         echo "Installed Krita."
     fi
+    if [ $2 = "firefox" ]
+    then
+        sudo apt install firefox
+        echo "Installed Mozilla Firefox."
+    fi
+    if [ $2 = "ktorrent" ]
+    then
+        sudo apt install ktorrent
+        echo "Installed ktorrent."
+    fi
+    if [ $2 = "sl" ]
+    then
+        sudo apt install sl
+        echo "Installed sl."
+    fi
+    if [ $2 = "cmatrix" ]
+    then
+        sudo apt install cmatrix
+        echo "Installed cmatrix."
+    fi
+    if [ $2 = "htop" ]
+    then
+        sudo apt install htop
+        echo "Installed htop."
+    fi
+    if [ $2 = "vim" ]
+    then
+        sudo apt install vim
+        echo "Installed Vim."
+    fi
+    if [ $2 = "flatpak" ]
+    then
+        sudo apt install flatpak
+        echo "Installed Flatpak."
+    fi
+    if [ $2 = "snapcraft" ]
+    then
+        sudo apt install snapd
+        echo "Installed Snapcraft."
+    fi
+    if [ $2 = "kodi" ]
+    then
+        sudo apt install kodi
+        echo "Installed Kodi."
+    fi
+    if [ $2 = "flameshot" ]
+    then
+        sudo apt install flameshot
+        echo "Installed Flameshot."
+    fi
+    if [ $2 = "qbittorrent" ]
+    then
+        sudo apt install qbittorrent
+        echo "Installed qbittorrent."
+    fi
 fi
