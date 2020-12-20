@@ -118,4 +118,29 @@ then
         sudo apt install qbittorrent
         echo "Installed qbittorrent."
     fi
+    if [ $2 = "blender" ]
+    then
+        sudo apt install blender
+        echo "Installed blender."
+    fi
+    if [ $2 = "pidgin" ]
+    then
+        sudo apt install pidgin
+        echo "Installed Pidgin."
+    fi
+    if [ $2 = "thunderbird" ]
+    then
+        sudo apt install thunderbird
+        echo "Installed thunderbird."
+    fi
+    if [ $2 = "stacer" ]
+    then
+        sudo apt install stacer
+        echo "Installed stacer."
+    fi
+    if [ $2 = "virtualbox" ]
+    then
+        sudo apt install virtualbox
+        echo "Installed virtualbox."
+    fi
 fi
