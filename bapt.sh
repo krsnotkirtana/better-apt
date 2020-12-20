@@ -463,5 +463,84 @@ then
         sudo apt install firewalld
         echo "Installed firewalld."
     fi
-
+    if [ $2 = "digikam" ]
+    then
+        sudo apt install digikam
+        echo "Installed digiKam."
+    fi
+    if [ $2 = "flowblade" ]
+    then
+        sudo apt install flowblade
+        echo "Installed flowblade."
+    fi
+    if [ $2 = "ardour" ]
+    then
+        sudo apt install ardour
+        echo "Installed ardour."
+    fi
+    if [ $2 = "wireshark" ]
+    then
+        sudo apt install wireshark-qt
+        echo "Installed wireshark."
+    fi
+    if [ $2 = "aircrack-ng" ]
+    then
+        sudo apt install aircrack-ng
+        echo "Installed aircrack-ng."
+    fi
+    if [ $2 = "hashcat" ]
+    then
+        sudo apt install hashcat
+        echo "Installed hashcat."
+    fi
+    if [ $2 = "wifite" ]
+    then
+        sudo apt install wifite
+        echo "Installed wifite."
+    fi
+    if [ $2 = "beef" ]
+    then
+        sudo apt install beef
+        echo "Installed beef."
+    fi
+    if [ $2 = "nikto" ]
+    then
+        sudo apt install nikto
+        echo "Installed nikto."
+    fi
+    if [ $2 = "ksh" ]
+    then
+        sudo apt install ksh
+        echo "Installed ksh."
+    fi
+    if [ $2 = "csh" ]
+    then
+        sudo apt install csh
+        echo "Installed csh."
+    fi
+    if [ $2 = "logwatch" ]
+    then
+        sudo apt install logwatch
+        echo "Installed logwatch."
+    fi
+    if [ $2 = "logcheck" ]
+    then
+        sudo apt install logcheck
+        echo "Installed logcheck."
+    fi
+    if [ $2 = "libreoffice" ]
+    then
+        sudo apt install libreoffice
+        echo "Installed libreoffice."
+    fi
+    if [ $2 = "evince" ]
+    then
+        sudo apt install evince
+        echo "Installed evince."
+    fi
+    if [ $2 = "csh" ]
+    then
+        sudo apt install csh
+        echo "Installed csh."
+    fi
 fi
