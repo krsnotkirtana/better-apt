@@ -143,4 +143,35 @@ then
         sudo apt install virtualbox
         echo "Installed virtualbox."
     fi
+    if [ $2 = "gedit" ]
+    then
+        sudo apt install gedit
+        echo "Installed gedit."
+    fi
+    if [ $2 = "virt-manager" ]
+    then
+        sudo apt install virt-manager
+        echo "Installed virt-manager."
+    fi
+    if [ $2 = "kdevelop" ]
+    then
+        sudo apt install kdevelop
+        echo "Installed kdevelop."
+    fi
+    if [ $2 = "kontact" ]
+    then
+        sudo apt install kontact
+        echo "Installed kontact."
+    fi
+    if [ $2 = "gcompris" ]
+    then
+        sudo apt install gcompris
+        echo "Installed gcompris."
+    fi
+    if [ $2 = "falkon" ]
+    then
+        sudo apt install falkon
+        echo "Installed falkon."
+    fi
+
 fi
