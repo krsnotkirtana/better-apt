@@ -173,5 +173,39 @@ then
         sudo apt install falkon
         echo "Installed falkon."
     fi
-
+    if [ $2 = "konversation" ]
+    then
+        sudo apt install konversation
+        echo "Installed konversation."
+    fi
+    if [ $2 = "kmail" ]
+    then
+        sudo apt install kmail
+        echo "Installed kmail."
+    fi
+    if [ $2 = "krfb" ]
+    then
+        sudo apt install krfb
+        echo "Installed krfb."
+    fi
+    if [ $2 = "elisa" ]
+    then
+        sudo apt install elisa
+        echo "Installed elisa."
+    fi
+    if [ $2 = "okular" ]
+    then
+        sudo apt install okular
+        echo "Installed okular."
+    fi
+    if [ $2 = "ffmpeg" ]
+    then
+        sudo apt install ffmpeg
+        echo "Installed ffmpeg."
+    fi
+    if [ $2 = "gnome-disks" ]
+    then
+        sudo apt install gnome-disk-utility
+        echo "Installed gnome-disks."
+    fi
 fi
