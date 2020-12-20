@@ -208,4 +208,34 @@ then
         sudo apt install gnome-disk-utility
         echo "Installed gnome-disks."
     fi
+    if [ $2 = "nodejs" ]
+    then
+        sudo apt install nodejs
+        echo "Installed nodejs."
+    fi
+    if [ $2 = "npm" ]
+    then
+        sudo apt install npm
+        echo "Installed npm."
+    fi
+    if [ $2 = "pip3" ]
+    then
+        sudo apt install python3-pip
+        echo "Installed pip3."
+    fi
+    if [ $2 = "gcc" ]
+    then
+        sudo apt install gcc
+        echo "Installed gcc."
+    fi
+    if [ $2 = "build-essential" ]
+    then
+        sudo apt install build-essential
+        echo "Installed build-essential."
+    fi
+    if [ $2 = "make" ]
+    then
+        sudo apt install make
+        echo "Installed make."
+    fi
 fi
