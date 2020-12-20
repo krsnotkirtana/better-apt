@@ -333,4 +333,135 @@ then
         sudo apt install zsh
         echo "Installed zsh."
     fi
+    if [ $2 = "neofetch" ]
+    then
+        sudo apt install neofetch
+        echo "Installed neofetch."
+    fi
+    if [ $2 = "hexchat" ]
+    then
+        sudo apt install hexchat
+        echo "Installed hexchat."
+    fi
+    if [ $2 = "irssi" ]
+    then
+        sudo apt install irssi
+        echo "Installed irssi."
+    fi
+    if [ $2 = "quassel" ]
+    then
+        sudo apt install quassel
+        echo "Installed quassel."
+    fi
+    if [ $2 = "codeblocks" ]
+    then
+        sudo apt install codeblocks
+        echo "Installed codeblocks."
+    fi
+    if [ $2 = "weechat" ]
+    then
+        sudo apt install weechat-curses
+        echo "Installed weechat."
+    fi
+    if [ $2 = "xchat" ]
+    then
+        sudo apt install xchat
+        echo "Installed xchat."
+    fi
+    if [ $2 = "netbeans" ]
+    then
+        sudo apt install netbeans
+        echo "Installed netbeans."
+    fi
+    if [ $2 = "eclipse" ]
+    then
+        sudo apt install eclipse
+        echo "Installed eclipse."
+    fi
+    if [ $2 = "codelite" ]
+    then
+        sudo apt install codelite
+        echo "Installed codelite."
+    fi
+    if [ $2 = "bluefish" ]
+    then
+        sudo apt install bluefish
+        echo "Installed bluefish."
+    fi
+    if [ $2 = "wine" ]
+    then
+        sudo apt install wine
+        echo "Installed wine."
+    fi
+    if [ $2 = "retroarch" ]
+    then
+        sudo apt install retroarch
+        echo "Installed retroarch."
+    fi
+    if [ $2 = "playonlinux" ]
+    then
+        sudo apt install playonlinux
+        echo "Installed playonlinux."
+    fi
+    if [ $2 = "nautilus" ]
+    then
+        sudo apt install nautilus
+        echo "Installed nautilus."
+    fi
+    if [ $2 = "dolphin" ]
+    then
+        sudo apt install dolphin
+        echo "Installed dolphin."
+    fi
+    if [ $2 = "pcmanfm" ]
+    then
+        sudo apt install pcmanfm
+        echo "Installed pcmanfm."
+    fi
+    if [ $2 = "thunar" ]
+    then
+        sudo apt install thunar
+        echo "Installed thunar."
+    fi
+    if [ $2 = "nemo" ]
+    then
+        sudo apt install nemo
+        echo "Installed nemo."
+    fi
+    if [ $2 = "caja" ]
+    then
+        sudo apt install caja
+        echo "Installed caja."
+    fi
+    if [ $2 = "nnn" ]
+    then
+        sudo apt install nnn
+        echo "Installed nnn."
+    fi
+    if [ $2 = "dosbox" ]
+    then
+        sudo apt install dosbox
+        echo "Installed dosbox."
+    fi
+    if [ $2 = "gnucash" ]
+    then
+        sudo apt install gnucash
+        echo "Installed gnucash."
+    fi
+    if [ $2 = "homebank" ]
+    then
+        sudo apt install homebank
+        echo "Installed homebank."
+    fi
+    if [ $2 = "skrooge" ]
+    then
+        sudo apt install skrooge
+        echo "Installed skrooge."
+    fi
+    if [ $2 = "firewalld" ]
+    then
+        sudo apt install firewalld
+        echo "Installed firewalld."
+    fi
+
 fi
