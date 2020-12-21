@@ -598,4 +598,94 @@ then
         sudo apt install gnome-screenshot
         echo "Installed gnome-screenshot."
     fi
+    if [ $2 = "retext" ]
+    then
+        sudo apt install retext
+        echo "Installed retext."
+    fi
+    if [ $2 = "postfix" ]
+    then
+        sudo apt install postfix
+        echo "Installed postfix."
+    fi
+    if [ $2 = "alpine" ]
+    then
+        sudo apt install alpine
+        echo "Installed alpine."
+    fi
+    if [ $2 = "mutt" ]
+    then
+        sudo apt install mutt
+        echo "Installed mutt."
+    fi
+    if [ $2 = "gufw" ]
+    then
+        sudo apt install gufw
+        echo "Installed gufw."
+    fi
+    if [ $2 = "shorewall" ]
+    then
+        sudo apt install shorewall-core
+        echo "Installed shorewall."
+    fi
+    if [ $2 = "lftp" ]
+    then
+        sudo apt install lftp
+        echo "Installed lftp."
+    fi
+    if [ $2 = "terminator" ]
+    then
+        sudo apt install terminator
+        echo "Installed terminator."
+    fi
+    if [ $2 = "guake" ]
+    then
+        sudo apt install guake
+        echo "Installed guake."
+    fi
+    if [ $2 = "konsole" ]
+    then
+        sudo apt install konsole
+        echo "Installed konsole."
+    fi
+    if [ $2 = "xterm" ]
+    then
+        sudo apt install xterm
+        echo "Installed xterm."
+    fi
+    if [ $2 = "rxvt" ]
+    then
+        sudo apt install rxvt-unicode
+        echo "Installed rxvt."
+    fi
+    if [ $2 = "stterm" ]
+    then
+        sudo apt install stterm
+        echo "Installed stterm."
+    fi
+    if [ $2 = "gnome-terminal" ]
+    then
+        sudo apt install gnome-terminal
+        echo "Installed gnome-terminal."
+    fi
+    if [ $2 = "terminology" ]
+    then
+        sudo apt install terminology
+        echo "Installed terminology."
+    fi
+    if [ $2 = "sakura" ]
+    then
+        sudo apt install sakura
+        echo "Installed sakura."
+    fi
+    if [ $2 = "yakuake" ]
+    then
+        sudo apt install yakuake
+        echo "Installed yakuake."
+    fi
+    if [ $2 = "lilyterm" ]
+    then
+        sudo apt install lilyterm
+        echo "Installed lilyterm."
+    fi
 fi
