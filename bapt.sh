@@ -8,5 +8,8 @@ then
         echo ""
         echo "**********************"
         echo Error: $2 is not available
+        echo ""
+        echo "----------------------"
+        echo Try using the '-p' flag for downloading software from the internet.
     fi
 fi
